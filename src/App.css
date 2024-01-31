@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.textimage{
+  background-image: url("https://media.giphy.com/media/PU9ae3tuWoJCU/giphy.gif");
+  position: absolute;
+  
+  
+  padding-top: 50px;
+  background-size: 45rem;
+  top: 20%;
+  left:20%;
+  background-color: white;
+  width: 700px;
+  height: 400px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  flex-direction: column;
+}
+p{
+  padding-top: 30px;
+  color: black;
+  
+}
+.header{
+  position: relative;
+}
+img{
+  width: 100%;
+  height: 10%
+}
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  border: 5px solid black;
+  background-color: palevioletred;
   color: white;
+  font-size: 20px;
+  margin: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
