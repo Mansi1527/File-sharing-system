@@ -25,7 +25,7 @@
 3. **Start MongoDB:**
     - Make sure your MongoDB server is running. You can start MongoDB using the appropriate command for your operating system.
     ``` bash
-    mongod --dbpath https://cloud.mongodb.com/v2/64a32d7bc7abff565ad37bad#/clusters
+        mongod --dbpath https://cloud.mongodb.com/v2/64a32d7bc7abff565ad37bad#/clusters
 
 
 4. **Uploading Files and Sharing URLs:**
